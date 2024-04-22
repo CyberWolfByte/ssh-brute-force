@@ -55,8 +55,7 @@ The tools and scripts provided in this repository are made available for educati
     ```
     
 4. **Download Password List**: Download the "10-million-password-list-top-100.txt" file or other word list of your choice from the SecLists repository. Update the script accordingly to reflect your target word list:
-    
-    [](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials)
+    https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials
     
 
 ## Usage
