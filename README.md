@@ -34,21 +34,27 @@ The tools and scripts provided in this repository are made available for educati
     ```
 ## Installation
 
-1. **Install Python**: Make sure Python is installed on your system. If not, you can install it using your distribution's package manager. For Kali Linux:
+1. **Clone the Repository**:
+    
+    ```bash
+    git clone https://github.com/CyberWolfByte/ssh-brute-force.git
+    cd website-demo
+    ```
+    
+2. **Install Python**: Make sure Python is installed on your system. If not, you can install it using your distribution's package manager. For Kali Linux:
     
     ```bash
     sudo apt-get update
     sudo apt-get install python3
-    
     ```
     
-2. **Install Required Python Libraries**: Install the `pwn` and `paramiko` libraries using pip:
+3. **Install Required Python Libraries**: Install the `pwn` and `paramiko` libraries using pip:
     
     ```bash
     pip install pwntools paramiko
     ```
     
-3. **Download Password List**: Download the "10-million-password-list-top-100.txt" file or other word list of your choice from the SecLists repository. Update the script accordingly to reflect your target word list:
+4. **Download Password List**: Download the "10-million-password-list-top-100.txt" file or other word list of your choice from the SecLists repository. Update the script accordingly to reflect your target word list:
     
     [](https://github.com/danielmiessler/SecLists/tree/master/Passwords/Common-Credentials)
     
