@@ -38,7 +38,7 @@ The tools and scripts provided in this repository are made available for educati
     
     ```bash
     git clone https://github.com/CyberWolfByte/ssh-brute-force.git
-    cd website-demo
+    cd ssh-brute-force
     ```
     
 2. **Install Python**: Make sure Python is installed on your system. If not, you can install it using your distribution's package manager. For Kali Linux:
