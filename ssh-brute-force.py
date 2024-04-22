@@ -3,7 +3,7 @@ import paramiko  # Import Paramiko for SSH connection handling
 
 # Define connection parameters
 host = '127.0.0.1'  # Target host address (localhost in this case)
-username = 'kali'  # Username for SSH connection
+username = 'CHANGEME'  # Username for SSH connection
 attempts = 0  # Counter for tracking the number of password attempts
 
 # Open the password list file
